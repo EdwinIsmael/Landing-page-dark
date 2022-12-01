@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+ 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    
+    <meta name="theme-color" content="black">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <link rel="apple-touch-startup-image" href="images/favicon.png">
+
+    <script src="main.js"></script>
+  <link rel="icon" type="image/png" href="./images/favicon.png">
+  <title>MARIA'S REVENGE</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -14,182 +28,114 @@
 
     <nav class="nav container">
       <figure class="nav__logo">
-        <img src="images/logo.svg" class="nav__img">
+        <img src="images/CJEJ__1_-removebg-preview.png" class="nav__img" >
       </figure>
 
-      <a href="#" class="nav__link">Features</a>
-      <a href="#" class="nav__link">Team</a>
-      <a href="#" class="nav__link">Sign In</a>
+      <a href="#" class="nav__link">Ayuda</a>
+      <a href="#" class="nav__link">Equipo</a>
+      <a href="#" class="nav__link">Iniciar Sesion</a>
     </nav>
 
     <section class="hero__main container">
       <img src="images/illustration-intro.png" class="hero__img">
 
-      <h1 class="hero__title">All your files in one secure location, accessible anywhere.</h1>
-      <p class="hero__paragraph">Fylo stores all your most important files in one secure location. Access them wherever 
-        you need, share and collaborate with friends family, and co-workers.</p>
+      <h1 class="hero__title">LA VENGANZA DE MARIA</h1>
+      <p class="hero__paragraph">En un mundo post-apocaliptico Maria es la unica capaz de salvar a la humanidad ¿Podrás ayudarle?</p>
         <a href="#" class="hero__cta">  
-          Get Started
+          EMPECEMOS
         </a>
     </section>
 
   </header>
 
-  <main class="main">
-    <section class="about container">
+  <section class="productive container">
 
-      <article class="about__item">
-        <figure class="about__picture">
-          <img src="images/icon-any-file.svg" class="about__img">
-        </figure>
+    <figure class="productive__picture">
+      <img src="images/illustration-stay-productive.png" class="productive__img">
+    </figure>
 
-        <h3 class="about__title"> Access your files, anywhere</h3>
+    <div class="productive__texts">
 
-        <p class="about__paragraph"> The ability to use a smartphone, tablet, or computer to access your account means your 
-          files follow you everywhere.</p>
-      </article>
+      <h3 class="productive__title"> Conoce más acerca de la historia y los personajes</h3>
 
-      <article class="about__item">
-        <figure class="about__picture">
-          <img src="images/icon-security.svg" class="about__img">
-        </figure>
+      <p class="productive__paragraph"> Al crear una vacuna para una enfermedad se generaron efectos secundarios, estos provocaron que la humanidad se convirtiera en zombies, ante esto Maria tomará venganza al ver como su padre moría en sus brazos y se convertía en uno de ellos.</p>
 
-        <h3 class="about__title">  Security you can trust
-        </h3>
+      <p class="productive__paragraph">Maria se enfrentará a las oleadas de zombies y a distintas mutaciones de ellos, tendrá la misión de salvar al presidente ya que es la clave para salvaguardar a los humanos restantes y para buscar alguna cura, no descansará hasta encontrarlo porque Maria solo quiere VENGANZA.</p>
 
-        <p class="about__paragraph"> 2-factor authentication and user-controlled encryption are just a couple of the security 
-          features we allow to help secure your files.
-        </p>
-      </article>
+      <a href="/Landing-page-dark/personajes.html" class="productive__cta">  
+        Conoce más...
+        <img src="images/icon-arrow.svg" class="productive__arrow">
+      </a>
 
-      
-
- 
-      <article class="about__item">
-        <figure class="about__picture">
-          <img src="images/icon-collaboration.svg" class="about__img">
-        </figure>
-
-        <h3 class="about__title">Real-time collaboration</h3>
-
-        <p class="about__paragraph">
-          Securely share files and folders with friends, family and colleagues for live collaboration. 
-          No email attachments required.</p>
-      </article>
-
-      <article class="about__item">
-        <figure class="about__picture">
-          <img src="images/icon-any-file.svg" class="about__img">
-        </figure>
-
-        <h3 class="about__title">  Store any type of file</h3>
-
-        <p class="about__paragraph">  Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-          file types to be securely stored and shared.</p>
-      </article>
-
-    </section>
-
-    <section class="productive container">
-
-      <figure class="productive__picture">
-        <img src="images/illustration-stay-productive.png" class="productive__img">
-      </figure>
-
-      <div class="productive__texts">
-
-        <h3 class="productive__title"> Stay productive, wherever you are</h3>
-
-        <p class="productive__paragraph"> Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-          storage needs.</p>
-
-        <p class="productive__paragraph">Securely share files and folders with friends, family and colleagues for live collaboration. No email 
-          attachments required.</p>
-
-        <a href="#" class="productive__cta">  
-          See how Fylo works
-          <img src="images/icon-arrow.svg" class="productive__arrow">
-        </a>
-
-      </div>
-    </section>
-
+    </div>
+  </section>
+  
     <section class="card container">
 
       <article class="card__item card__item--first">
-        <p class="card__paragraph"> Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-          become a well-oiled collaboration machine.</p>
+        <p class="card__paragraph"> Esta casa desarrolladora a puesto todos sus objetivos en este proyecto, sabemos que será una entrega fantastica y ya estamos deseando que la prueben.</p>
 
         <div class="card__profile">
           <figure class="card__picture">
-            <img src="images/profile-1.jpg"  class="card__img">
+            <img src="images/profile-1.png"  class="card__img">
           </figure>
           
           <div class="card__info">
-            <h3 class="card__name">Satish Patel</h3>
-            <p class="card__job">Founder & CEO, Huddle</p>
+            <h3 class="card__name">Carlos Rosales</h3>
+            <p class="card__job">Fundador & CEO</p>
           </div>
         </div>
       </article>
 
       <article class="card__item ">
-        <p class="card__paragraph"> Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-          become a well-oiled collaboration machine.</p>
+        <p class="card__paragraph"> El desarrollo será un gran videojuego debido a que tiene una ambientacion bastante inmersiva que cada uno de los usuarios podra sentir.</p>
 
         <div class="card__profile">
           <figure class="card__picture">
-            <img src="images/profile-2.jpg"  class="card__img">
+            <img src="images/profile-2.png"  class="card__img">
           </figure>
           
           <div class="card__info">
-            <h3 class="card__name">Bruce McKenzie</h3>
-            <p class="card__job">Founder & CEO, Huddle</p>
+            <h3 class="card__name">Edwin Nolasco</h3>
+            <p class="card__job">Fundador & programador</p>
           </div>
         </div>
       </article>
 
       <article class="card__item ">
-        <p class="card__paragraph"> Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-          become a well-oiled collaboration machine.</p>
+        <p class="card__paragraph"> Este proyecto sigue desarrollandose y esperemos que tenga un impacto positivo en la sociedad, asi como tratatremos de ayudar al medio ambiente.</p>
 
-        <div class="card__profile">
-          <figure class="card__picture">
-            <img src="images/profile-3.jpg"  class="card__img">
-          </figure>
-          
-          <div class="card__info">
-            <h3 class="card__name">Iva Boyd</h3>
-            <p class="card__job">Founder & CEO, Huddle</p>
-          </div>
-        </div>
+        
+        
       </article>
 
 
     </section>
-
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/wvqri9oS4G4" title="Lil Uzi Vert - xo tour life [Official Audio]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <section class="join">
       <div class="join__container container">
-        <h3 class="join__title">  Get early access today
+        <h3 class="join__title">  OBTEN ACCESO ANTICIPADO
         </h3>
-        <p class="join__paragraph"> It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-          questions, our support team would be happy to help you.</p>
+        <p class="join__paragraph"> Solo toma un minuto registrarse de manera gratuita. Si tiene alguna pregunta, nuestro equipo de soporte estará encantado de ayudarle.</p>
 
         <form class="join__form">
-          <input type="text" placeholder="email@example.com" class="join__input join__input--text">
-          <input type="submit" value="Get Started For Free" class="join__input join__input--submit">
+          <input type="text" placeholder="email@example.com" id="email" class="join__input join__input--text">
+          
         </form>
+        <button class="join__input join__input--submit" onclick="ejemplo()">Obten Acceso Anticipado</button>
+        <button class="join__input join__input--submit" id="ubi">Danos acceso a tu Ubicacion</button>
       </div>
     </section>
   </main>
 
   <footer class="footer ">
     <section class="footer__container container">
-      <img src="images/logo.svg" class="footer__logo">
+      <img src="images/CJEJ__1_-removebg-preview.png" class="footer__logo">
 
       <div class="footer__items">
         <p class="footer__contact footer__contact--first">
           <img src="images/icon-location.svg" class="footer__icon">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quidem aperiam quibusdam, veritatis explicabo similique.
+          C. P.º de Viena, Cd del Valle, 63157 Tepic, Nay.
         </p>
   
   
@@ -197,29 +143,29 @@
           
           <p class="footer__contact footer__contact--second">
             <img src="images/icon-phone.svg" class="footer__icon">
-            +1-543-123-4567
+            +52-311-877-6113
           </p>
   
           <div class="footer__location">
             <p class="footer__contact">
               <img src="images/icon-email.svg" class="footer__icon">
-              example@fylo.com
+              Maria's Revenge@cjej.com
             </p>
           </div>
   
         </div>
   
         <nav class="footer__nav">
-          <a href="#" class="footer__link">About Us</a>
-          <a href="#" class="footer__link">Jobs</a>
-          <a href="#" class="footer__link">Press</a>
-          <a href="#" class="footer__link">Blog</a>
+          <a href="#" class="footer__link">Sobre Nosotros</a>
+          <a href="#" class="footer__link">Carrers</a>
+          <a href="#" class="footer__link">Prensa</a>
+          <a href="#" class="footer__link">Blogea</a>
         </nav>
   
         <nav class="footer__nav">
-          <a href="#" class="footer__link">Contact Us</a>
-          <a href="#" class="footer__link">Terms</a>
-          <a href="#" class="footer__link">Privacy</a>
+          <a href="#" class="footer__link">Contactanos</a>
+          <a href="#" class="footer__link">Terminos</a>
+          <a href="#" class="footer__link">Privacidad</a>
         </nav>
   
         <div class="footer__social">
@@ -230,26 +176,55 @@
       </div>
       
     </section>
+<script>
+  function ejemplo(){
+    email=(document.querySelector("body > section.join > div > form > input.join__input.join__input--text").value)
+    
+    if (email !=""){
+      const cdrp={
+        email:email, 
+      }
+      $.post("https://api-comida.onrender.com/eljefe", cdrp, (data, status) => {
+        console.log(data);
+      });
 
+      setTimeout(function(){
+        window.location.reload()
+      },12000);
+    }else{
+      window.alert("no debe haber campos vacios")
+    }
 
+    }
+  
+</script>
+<script src="css/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+  $(document).ready(function () {
+               //Click al boton para pedir permisos
+               $("#ubi").click(function () {
+                   //Si el navegador soporta geolocalizacion
+                   if (!!navigator.geolocation) {
+                       //Pedimos los datos de geolocalizacion al navegador
+                       navigator.geolocation.getCurrentPosition(
+                               //Si el navegador entrega los datos de geolocalizacion los imprimimos
+                               function (position) {
+                                   window.alert("Ubicacion permitida");
+                                   $("#nlat").text(position.coords.latitude);
+                                   $("#nlon").text(position.coords.longitude);
+                               },
+                               //Si no los entrega manda un alerta de error
+                               function () {
+                                   window.alert("Ubicacion no permitida");
+                               }
+                       );
+                   }
+               });
+   
+           });
+</script>
   </footer>
 
-  <!-- 
-
-  
-  
-  
-  
-
-  
-  
-  
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer> -->
 </body>
 </html>

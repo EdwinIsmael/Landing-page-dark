@@ -1,0 +1,35 @@
+{  
+    "name":"Maria's Revenge",
+    "short_name":"Maria's Revenge",
+    "start_url": "/index.html",
+    "description":"Maria's Revenge es un videojuego shooting de terror desarrollado en Unity",
+    "lang":"es-ES",
+    "dir":"ltr",
+    "display":"minimal-ui",
+    "background_color":"black",
+    "theme_color":"black",
+    "orientation": "portrait",
+    "scope": "./",
+    "icons":[  
+       {  
+          "src":"images/illustration-intro.png",
+          "sizes":"500x500",
+          "type":"image/png"
+       },
+       {  
+            "src":"images/profile-2.png",
+            "sizes":"128x128",
+            "type":"image/png"
+        },
+        {  
+            "src":"images/profile-1.png",
+            "sizes":"128x128",
+            "type":"image/png"
+        },
+        {
+            "src": "images/favicon.png",
+            "sizes": "500x500",
+            "type": "image/png"
+        }
+    ]
+ }

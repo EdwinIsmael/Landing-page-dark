@@ -8,13 +8,13 @@
 }
 
 :root {
-    --blue-intro: hsl(217, 28%, 15%);
-    --blue-main: hsl(218, 28%, 13%);
-    --blue-footer: hsl(216, 53%, 9%);
-    --blue-testimonials: hsl(219, 30%, 18%);
+    --blue-intro: #850000;
+    --blue-main: #000000;
+    --blue-footer: hsl(0, 100%, 26%);
+    --blue-testimonials: #5f0202;
     --white: hsl(0, 0%, 100%);
-    --cyan-gradient: hsl(176, 68%, 64%);
-    --blue-gradient: hsl(198, 60%, 50%);
+    --cyan-gradient: hsl(0, 66%, 17%);
+    --blue-gradient: hsl(0, 0%, 47%);
     --light-red: hsl(0, 100%, 63%);
     --gradient: linear-gradient(to right, var(--cyan-gradient), var(--blue-gradient));
     --body-font: 'Open Sans', sans-serif;
@@ -52,9 +52,6 @@ body{
     background-size: 100% 100px;
 }
 
-/* .hero *{
-    outline: 1px solid #fff;
-} */
 
 .container{
     width: 90%;
@@ -76,7 +73,7 @@ body{
 
 .nav__img{
     width: 100%;
-    display: block;
+    display:flex;
 }
 
 .nav__link{
@@ -113,7 +110,7 @@ body{
 
 .hero__paragraph{
     line-height: 1.5;
-    /* margin: .5em 0; */
+    
 }
 
 .hero__cta{
@@ -136,9 +133,7 @@ body{
     gap: 5em;
 }
 
-.about *{
-    /* outline: 1px solid #fff; */
-}
+
 
 .about__img{
     width: 100px;
@@ -175,6 +170,7 @@ body{
 .productive__paragraph{
     line-height: 1.7;
     margin-bottom: 1em;
+    text-align: justify;
 }
 
 
